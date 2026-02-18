@@ -1,9 +1,12 @@
 body {
-    background: #DD7EFC;
+    background: #D9FFE2;
     font-family:"Times New Roman", Times, serif;
     margin: 40px;
 }
 h1 {
     text-align: center;
-    color: #FFF0DB;
+    color: #000000;
+}
+.attention {
+    font-weight: bold;
 }
