@@ -16,3 +16,16 @@ h1 {
 .projects {
     background: #5f5f5f;
 }
+.row {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between image and link */
+}
+
+.stressed {
+  width: 200px;
+}
+
+.solution-link {
+  font-size: 16px;
+}
