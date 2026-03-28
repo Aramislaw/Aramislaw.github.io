@@ -1,32 +1,28 @@
 body {
     background: #D9FFE2;
-    font-family:"Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 40px;
+}
 
 h1 {
     text-align: center;
     color: #000000;
 }
-.attention {
-    font-weight: bold;
-}
-
-}
 
 .projects {
-    background: #5f5f5f;
+    background: transparent;
 }
-.row 
-{
-  display: flex;
-  align-items: center;
-  gap: 20px; /* space between image and link */
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .stressed {
-  width: 200px;
+    width: 200px;
 }
 
 .solution-link {
-  font-size: 18px;
+    font-size: 18px;
 }
