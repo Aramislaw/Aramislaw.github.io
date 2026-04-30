@@ -42,7 +42,7 @@ h1 {
     width: 100%;
     max-width: 280px;
     height: 200px;
-    /* object-fit: contain ensures the image is resized to fit the box without cropping */
+    
     object-fit: contain; 
     padding: 10px;
     margin: 10px 0;
