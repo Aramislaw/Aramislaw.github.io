@@ -1,47 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>CSCE 190: [Aramis Lawless]</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>[Aramis Lawless]</h1>
+<html lang="en">
 
-    <div class="about">
-      <h2>About me</h2>
-      <p>[To help students manage college stress in realistic, healthy, and sustainable ways.]</p>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSCE 190: Aramis Lawless</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <div class="skills">
+<body>
+
+  <header>
+    <h1>Aramis Lawless</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="files/profile.png" alt="Aramis Lawless Profile Picture">
+        <div>
+          <p>Hello! Welcome to my personal portfolio. My name is Aramis Lawless, a student at the University of South Carolina. I love learning and finding new ways to innovate technology. My personal mission is to help students manage college stress in realistic, healthy, and sustainable ways.</p>
+          <p><a href="files/resume.pdf" target="_blank">Check out my resume for more information!</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
       <h2>Skills</h2>
-      <p>Java, Python,</p>
-    </div>
+      <ul>
+        <li><strong>Coding Proficiencies:</strong> Java, Python</li>
+        <li><strong>Focus:</strong> Student Stress Management & Healthy Coping</li>
+      </ul>
+    </section>
 
-    <div class="projects">
-      <h2>Projects:</h2>
+    <section id="projects">
+      <h2>Highlighted Projects</h2>
+      <div class="project-list">
 
-      <section class="project">
-        <a href="files/statement.pdf"><h3>Problem Statement</h3></a>
-        <a href="files/Managing Stress.pdf"><h3>Student Stress Management</h3></a>
-
-        <div class="row">
-      <a href="files/PaintPrototype.pdf" target="_blank">
-    <img src="images/PaintPrototype.png" class="stressed">
-</a>
-          <img src="images/Student Stress.png" class="stressed">
-
-          <a href="MSpaint Solutions For student Stress.pdf" class="solution-link">
-            View Solution
+        <div class="project-item">
+          <a href="files/statement.pdf">
+            <img src="images/problem.png" alt="Problem Statement">
           </a>
+          <div class="project-info">
+            <h3><a href="files/statement.pdf" style="text-decoration:none; color:inherit;">Problem Statement</a></h3>
+            <p>Identifying the root causes of student stress and defining the challenges students face in higher education.</p>
+          </div>
         </div>
 
-        <img src="images/problem.png" alt="Problem Image">
-      </section>
-    </div>
+        <div class="project-item">
+          <a href="files/Managing Stress.pdf">
+            <img src="images/Student Stress.png" alt="Student Stress" class="stressed">
+          </a>
+          <div class="project-info">
+            <h3><a href="files/Managing Stress.pdf" style="text-decoration:none; color:inherit;">Student Stress Management</a></h3>
+            <p>Developing healthy, realistic strategies for students to navigate the pressures of college life.</p>
+            <a href="MSpaint Solutions For student Stress.pdf" class="solution-link">View MS Paint Solutions</a>
+          </div>
+        </div>
 
-    <div class="contact">
-      <h2>Contact:</h2>
-      <p>lawlessg@email.sc.edu</p>
-    </div>
-  </body>
+        <div class="project-item">
+          <a href="files/PaintPrototype.pdf" target="_blank">
+            <img src="images/PaintPrototype.png" alt="Paint Prototype" class="stressed">
+          </a>
+          <div class="project-info">
+            <h3><a href="files/PaintPrototype.pdf" style="text-decoration:none; color:inherit;">Paint Prototype</a></h3>
+            <p>A visual representation and prototype of potential technical solutions for stress management.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact me!</h2>
+    <p>
+      <a href="mailto:lawlessg@email.sc.edu">Email: lawlessg@email.sc.edu</a> | 
+      <a href="https://linkedin.com">LinkedIn</a> | 
+      <a href="https://github.com">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+
 </html>
