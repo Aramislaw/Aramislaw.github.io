@@ -1,93 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSCE 190: Aramis Lawless</title>
+  <title>CSCE 190: [Aramis Lawless]</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
   <header>
-    <h1>Aramis Lawless</h1>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>[Aramis Lawless]</h1>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <div class="about-content">
-        <img src="files/profile.png" alt="Aramis Lawless Profile Picture">
-        <div>
-          <p>Hello! Welcome to my personal portfolio. My name is Aramis Lawless, a student at the University of South Carolina. I love learning and finding new ways to innovate technology. My personal mission is to help students manage college stress in realistic, healthy, and sustainable ways.</p>
-          <p><a href="files/resume.pdf" target="_blank">Check out my resume for more information!</a></p>
-        </div>
-      </div>
-    </section>
+    <div class="project-grid">
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Coding Proficiencies:</strong> Java, Python</li>
-        <li><strong>Focus:</strong> Student Stress Management & Healthy Coping</li>
-      </ul>
-    </section>
+      <section class="project-card">
+        <h3>Problem Statement</h3>
+        <a href="files/statement.pdf">
+          <img src="images/problem.png" alt="Problem Image">
+        </a>
+        <p>[To help students manage college stress in realistic, healthy, and sustainable ways.]</p>
+      </section>
 
-    <section id="projects">
-      <h2>Highlighted Projects</h2>
-      <div class="project-list">
+      <section class="project-card">
+        <h3>Student Stress Management</h3>
+        <a href="files/Managing Stress.pdf">
+          <img src="images/Student Stress.png" alt="Student Stress" class="stressed">
+        </a>
+        <p>A deep dive into research-backed strategies for maintaining mental wellness during university.</p>
+      </section>
 
-        <div class="project-item">
-          <a href="files/statement.pdf">
-            <img src="images/problem.png" alt="Problem Statement">
-          </a>
-          <div class="project-info">
-            <h3><a href="files/statement.pdf" style="text-decoration:none; color:inherit;">Problem Statement</a></h3>
-            <p>Identifying the root causes of student stress and defining the challenges students face in higher education.</p>
+      <section class="project-card">
+        <h3>Paint Prototype</h3>
+        <a href="files/PaintPrototype.pdf" target="_blank">
+          <img src="images/PaintPrototype.png" alt="Paint Prototype" class="stressed">
+        </a>
+        <p>A visual walkthrough of the interface design created to address stressors through digital tools.</p>
+      </section>
+
+      <section class="project-card">
+        <h3>View Solution</h3>
+        <a href="MSpaint Solutions For student Stress.pdf">
+          <img src="images/Student Stress.png" alt="Solutions" class="stressed">
+        </a>
+        <p>MS Paint Solutions for student stress: a creative approach to visualizing practical coping mechanisms.</p>
+      </section>
+
+      <section class="project-card">
+        <h3>Resume</h3>
+        <a href="files/resume.pdf" target="_blank">
+          <div class="resume-placeholder">
+            <span class="plus-icon">+</span>
+            <p>Resume File</p>
           </div>
-        </div>
+        </a>
+        <p>Overview of technical experience and academic background.</p>
+      </section>
 
-        <div class="project-item">
-          <a href="files/Managing Stress.pdf">
-            <img src="images/Student Stress.png" alt="Student Stress" class="stressed">
-          </a>
-          <div class="project-info">
-            <h3><a href="files/Managing Stress.pdf" style="text-decoration:none; color:inherit;">Student Stress Management</a></h3>
-            <p>Developing healthy, realistic strategies for students to navigate the pressures of college life.</p>
-            <a href="MSpaint Solutions For student Stress.pdf" class="solution-link">View MS Paint Solutions</a>
-          </div>
+      <section class="project-card">
+        <h3>About me</h3>
+        <div class="profile-container">
+           <img src="files/profile.png" alt="Profile Picture" class="profile-img">
         </div>
+        <p><strong>Skills:</strong> Java, Python</p>
+      </section>
 
-        <div class="project-item">
-          <a href="files/PaintPrototype.pdf" target="_blank">
-            <img src="images/PaintPrototype.png" alt="Paint Prototype" class="stressed">
-          </a>
-          <div class="project-info">
-            <h3><a href="files/PaintPrototype.pdf" style="text-decoration:none; color:inherit;">Paint Prototype</a></h3>
-            <p>A visual representation and prototype of potential technical solutions for stress management.</p>
-          </div>
+      <section class="project-card">
+        <h3>Contact:</h3>
+        <div class="contact-box">
+          <p>lawlessg@email.sc.edu</p>
         </div>
+        <p>Reach out via email for inquiries regarding this portfolio.</p>
+      </section>
 
-      </div>
-    </section>
+    </div>
   </main>
 
-  <footer id="contact">
-    <h2>Contact me!</h2>
-    <p>
-      <a href="mailto:lawlessg@email.sc.edu">Email: lawlessg@email.sc.edu</a> | 
-      <a href="https://linkedin.com">LinkedIn</a> | 
-      <a href="https://github.com">GitHub</a>
-    </p>
-  </footer>
-
 </body>
-
 </html>
